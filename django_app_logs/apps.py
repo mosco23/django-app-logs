@@ -1,9 +1,9 @@
 from django.apps import AppConfig
 
 
-class HistoryConfig(AppConfig):
+class DjangoAppLogsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'history'
+    name = 'django_app_logs'
     verbose_name = 'Journal des actions'
 
     def ready(self):
