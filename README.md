@@ -16,7 +16,6 @@ INSTALLED_APPS = [
 
 ```python
 
-python manage.py makemigrations
 python manage.py migrate
 
 ```
