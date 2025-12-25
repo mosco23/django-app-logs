@@ -108,7 +108,7 @@ def get_object_history_url(obj):
     from django.urls import reverse
     content_type = ContentType.objects.get_for_model(obj)
     return reverse(
-        'admin:history_object_history',
+        'admin:django_app_logs_object_history',
         args=[content_type.pk, obj.pk]
     )
 

@@ -34,7 +34,7 @@ class ActionLogRegistry:
         #cls.exclude('operation_app.recouvrement')
 
         # Le modèle ActionLog lui-même (éviter récursion)
-        cls.exclude('history.actionlog')
+        cls.exclude('django_app_logs.actionlog')
 
         # Modèles Django internes à exclure
         cls.exclude('contenttypes.contenttype')
